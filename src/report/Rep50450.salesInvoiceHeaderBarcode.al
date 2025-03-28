@@ -25,6 +25,7 @@ report 50450 salesInvoiceHeaderBarcode
 
     requestpage
     {
+        SaveValues = true;
         AboutTitle = 'Teaching tip title';
         AboutText = 'Teaching tip content';
         layout
@@ -39,13 +40,7 @@ report 50450 salesInvoiceHeaderBarcode
 
         actions
         {
-            area(processing)
-            {
-                action(LayoutName)
-                {
 
-                }
-            }
         }
     }
     procedure BarCodeItemNo()
